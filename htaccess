@@ -1,0 +1,181 @@
+# …ffentlicher Download-Bereich
+
+Options +Indexes +MultiViews +FollowSymlinks
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files> 
+
+<IfModule mod_autoindex.c>
+  IndexOptions FancyIndexing IconHeight=16 IconWidth=16  NameWidth=30 DescriptionWidth=30 NameWidth=*
+# IconsAreLinks
+# SuppressDescription SuppressLastModified SuppressSize
+  HeaderName /system/.header
+  ReadmeName /system/.footer
+  
+  
+
+AddIcon /system/icons/aiff.gif .aiff 
+ AddDescription "aiff-Datei" .aiff
+AddIcon /system/icons/asc.gif .asc 
+ AddDescription "asc-Datei" .asc
+AddIcon /system/icons/ascii.gif .ascii 
+ AddDescription "ascii-Datei" .ascii
+AddIcon /system/icons/asf.gif .asf 
+ AddDescription "asf-Datei" .asf
+AddIcon /system/icons/asp.gif .asp 
+ AddDescription "asp-Datei" .asp
+AddIcon /system/icons/asx.gif .asx 
+ AddDescription "asx-Datei" .asx
+AddIcon /system/icons/avi.gif .avi 
+ AddDescription "avi-Datei" .avi
+AddIcon /system/icons/bat.gif .bat 
+ AddDescription "bat-Datei" .bat
+AddIcon /system/icons/bin.gif .bin 
+ AddDescription "bin-Datei" .bin
+AddIcon /system/icons/bmp.gif .bmp 
+ AddDescription "bmp-Datei" .bmp
+AddIcon /system/icons/cfg.gif .cfg 
+ AddDescription "cfg-Datei" .cfg
+AddIcon /system/icons/com.gif .com 
+ AddDescription "com-Datei" .com
+AddIcon /system/icons/dir.gif .dir 
+ AddDescription "dir-Datei" .dir
+AddIcon /system/icons/dll.gif .dll 
+ AddDescription "dll-Datei" .dll
+AddIcon /system/icons/doc.gif .doc 
+ AddDescription "doc-Datei" .doc
+AddIcon /system/icons/dot.gif .dot 
+ AddDescription "dot-Datei" .dot
+AddIcon /system/icons/dvi.gif .dvi 
+ AddDescription "dvi-Datei" .dvi
+AddIcon /system/icons/eps.gif .eps 
+ AddDescription "eps-Datei" .eps
+AddIcon /system/icons/exe.gif .exe 
+ AddDescription "exe-Datei" .exe
+AddIcon /system/icons/fon.gif .fon 
+ AddDescription "fon-Datei" .fon
+AddIcon /system/icons/gif.gif .gif 
+ AddDescription "gif-Datei" .gif
+AddIcon /system/icons/gul.gif .gul 
+ AddDescription "gul-Datei" .gul
+AddIcon /system/icons/hlp.gif .hlp 
+ AddDescription "hlp-Datei" .hlp
+AddIcon /system/icons/hqx.gif .hqx 
+ AddDescription "hqx-Datei" .hqx
+AddIcon /system/icons/htm.gif .htm 
+ AddDescription "htm-Datei" .htm
+AddIcon /system/icons/html.gif .html 
+ AddDescription "html-Datei" .html
+AddIcon /system/icons/hwp.gif .hwp 
+ AddDescription "hwp-Datei" .hwp
+AddIcon /system/icons/inf.gif .inf 
+ AddDescription "inf-Datei" .inf
+AddIcon /system/icons/ini.gif .ini 
+ AddDescription "ini-Datei" .ini
+AddIcon /system/icons/jbc.gif .jbc 
+ AddDescription "jbc-Datei" .jbc
+AddIcon /system/icons/jcl.gif .jcl 
+ AddDescription "jcl-Datei" .jcl
+AddIcon /system/icons/jmt.gif .jmt 
+ AddDescription "jmt-Datei" .jmt
+AddIcon /system/icons/jmx.gif .jmx 
+ AddDescription "jmx-Datei" .jmx
+AddIcon /system/icons/jpg.gif .jpg 
+ AddDescription "jpg-Datei" .jpg
+AddIcon /system/icons/js.gif .js 
+ AddDescription "js-Datei" .js
+AddIcon /system/icons/kar.gif .kar 
+ AddDescription "kar-Datei" .kar
+AddIcon /system/icons/m3u.gif .m3u 
+ AddDescription "m3u-Datei" .m3u
+AddIcon /system/icons/mdb.gif .mdb 
+ AddDescription "mdb-Datei" .mdb
+AddIcon /system/icons/mdw.gif .mdw 
+ AddDescription "mdw-Datei" .mdw
+AddIcon /system/icons/mid.gif .mid 
+ AddDescription "mid-Datei" .mid
+AddIcon /system/icons/mov.gif .mov 
+ AddDescription "mov-Datei" .mov
+AddIcon /system/icons/mp3.gif .mp3 
+ AddDescription "mp3-Datei" .mp3
+AddIcon /system/icons/mpg.gif .mpg 
+ AddDescription "mpg-Datei" .mpg
+AddIcon /system/icons/mpg.gif .mpeg 
+ AddDescription "mpeg-Datei" .mpeg
+AddIcon /system/icons/mpv.gif .mpv 
+ AddDescription "mpv-Datei" .mpv
+AddIcon /system/icons/pct.gif .pct 
+ AddDescription "pct-Datei" .pct
+AddIcon /system/icons/pcx.gif .pcx 
+ AddDescription "pcx-Datei" .pcx
+AddIcon /system/icons/pdf.gif .pdf 
+ AddDescription "pdf-Datei" .pdf
+AddIcon /system/icons/php.gif .php 
+ AddDescription "php-Datei" .php
+AddIcon /system/icons/pic.gif .pic 
+ AddDescription "pic-Datei" .pic
+AddIcon /system/icons/png.gif .png 
+ AddDescription "png-Datei" .png
+AddIcon /system/icons/pot.gif .pot 
+ AddDescription "pot-Datei" .pot
+AddIcon /system/icons/ppt.gif .ppt 
+ AddDescription "ppt-Datei" .ppt
+AddIcon /system/icons/ps.gif .ps 
+ AddDescription "ps-Datei" .ps
+AddIcon /system/icons/psd.gif .psd 
+ AddDescription "psd-Datei" .psd
+AddIcon /system/icons/ra.gif .ra 
+ AddDescription "ra-Datei" .ra
+AddIcon /system/icons/rar.gif .rar 
+ AddDescription "rar-Datei" .rar
+AddIcon /system/icons/reg.gif .reg 
+ AddDescription "reg-Datei" .reg
+AddIcon /system/icons/rtf.gif .rtf 
+ AddDescription "rtf-Datei" .rtf
+AddIcon /system/icons/sea.gif .sea 
+ AddDescription "sea-Datei" .sea
+AddIcon /system/icons/sit.gif .sit 
+ AddDescription "sit-Datei" .sit
+AddIcon /system/icons/smf.gif .smf 
+ AddDescription "smf-Datei" .smf
+AddIcon /system/icons/swa.gif .swa 
+ AddDescription "swa-Datei" .swa
+AddIcon /system/icons/tar.gif .tar 
+ AddDescription "tar-Datei" .tar
+AddIcon /system/icons/tga.gif .tga 
+ AddDescription "tga-Datei" .tga
+AddIcon /system/icons/tif.gif .tif 
+ AddDescription "tif-Datei" .tif
+AddIcon /system/icons/ttf.gif .ttf 
+ AddDescription "ttf-Datei" .ttf
+AddIcon /system/icons/txt.gif .txt 
+ AddDescription "txt-Datei" .txt
+AddIcon /system/icons/vdo.gif .vdo 
+ AddDescription "vdo-Datei" .vdo
+AddIcon /system/icons/wav.gif .wav 
+ AddDescription "wav-Datei" .wav
+AddIcon /system/icons/wmf.gif .wmf 
+ AddDescription "wmf-Datei" .wmf
+AddIcon /system/icons/wri.gif .wri 
+ AddDescription "wri-Datei" .wri
+AddIcon /system/icons/xls.gif .xls 
+ AddDescription "xls-Datei" .xls
+AddIcon /system/icons/xlt.gif .xlt 
+ AddDescription "xlt-Datei" .xlt
+AddIcon /system/icons/xlw.gif .xlw 
+ AddDescription "xlw-Datei" .xlw
+AddIcon /system/icons/xml.gif .xml 
+ AddDescription "xml-Datei" .xml
+AddIcon /system/icons/zip.gif .zip 
+ AddDescription "zip-Datei" .zip
+AddIcon /system/icons/back.gif ..
+#AddIcon /system/icons/hand.right.gif README
+AddIcon /system/icons/dir.gif ^^DIRECTORY^^
+AddIcon /system/icons/blank.gif ^^BLANKICON^^
+AddDescription "Verzeichnis" *
+AddDescription "Verstecktes Verzeichnis" *
+DefaultIcon /system/icons/default.gif
+
+  IndexIgnore  .??* *~ *# readme.html header.html HEADER hidden README RCS CVS *,v *,t .DS_Store *.log system access robots.txt
+</IfModule>
